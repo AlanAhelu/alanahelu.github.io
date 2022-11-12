@@ -1,0 +1,505 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+@font-face{
+    font-family: tipografia1;
+    src: url(tipografias/tipografia1.ttf);
+}
+@font-face{
+    font-family: tipografia2;
+    src: url(tipografias/tipografia2.ttf);
+}
+.barradenavegacion{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    /* max-height: 10vh; */
+    height: 61px;
+    /* border: 1px dashed rgb(0,0,0); */
+    background-color: #222222;
+    color: rgb(255,255,255);
+    z-index: 10;
+}
+.responsive1{
+    /* position: relative; */
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+}
+/* .bdn1{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    font-size: 2rem;
+    font-family: tipografia2;
+    padding-left: 100px;
+} */
+.bdn2{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* padding-left: 50px; */
+    /* border: 1px solid rgb(255,255,255); */
+}
+.bdn2elemento{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* border: 1px solid rgb(255,255,255); */
+}
+.bdnresponsive{
+    display: none;
+    width: 100%;
+    height: auto;
+    font-family: tipografia2;
+}
+.bdnresponsiveelemento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 61px;
+    background-color: #222222;
+}
+.btninicioresponsive{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 61px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btnbdnresponsive{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 70px;
+    height: 61px;
+    cursor: pointer;
+    /* background-color: #2196f3; */
+}
+.imagenbtnresponsive{
+    width: 35px;
+    height: auto;
+}
+.cambiarestilos1{
+    font-size: 1rem;
+    font-family: tipografia2;
+    /* color: rgb(255,255,255); */
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.cambiarestilos1:hover{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    border-bottom: 2px solid rgb(255,255,255);
+}
+.cambiarestilos2{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.cambiarestilos2:hover{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.cambiarestilos3{
+    border-bottom: 1px solid rgb(190, 188, 188);
+}
+.cambiarestilos4{
+    font-size: 1rem;
+    font-family: tipografia2;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.cambiarestilos4:hover{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.bdn{
+    display: block;
+    width: 100%;
+    height: 61px;
+    background-color: #222222;
+}
+.inicio{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    /* max-height: 90vh; */
+    height: 250px;
+    background-image: url(imagenes/background2.png);
+    background-size: cover;
+    filter: grayscale(100%);
+    /* background-color: #1e76bc; */
+    /* background-color: rgb(218, 214, 214); */
+}
+.presentacion1{
+    /* position: absolute;
+    top: 40%;
+    right: 20%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* border: 1px dashed rgb(0,0,0); */
+    color: rgb(255,255,255);
+    font-family: tipografia2;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.textopresentacion1{
+    font-family: tipografia2;
+    color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+}
+.presentacion2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* margin-bottom: -70px; */
+}
+.imagenprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    /* border: 4px solid rgb(0,0,0); */
+    border: 4px solid rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    background-color: #f1f1f1;
+}
+.imagencomputadora{
+    width: 75px;
+    height: auto;
+}
+.indice1, .indice2, .indice3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 50px;
+    height: 61px;
+    /* background-color: rgb(190, 188, 188); */
+}
+.titularsecciones{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    font-family: tipografia2;
+    /* border: 1px solid rgb(0,0,0); */
+}
+.lineatitularcentrar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.lineatitular{
+    width: 270px;
+    height: 2px;
+    background-color: #222222;
+    border: none;
+    margin-top: 0px;
+}
+.servicios{
+    position: relative;
+    width: 100%;
+    /* max-height: 90vh; */
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #f1f1f1;
+    /* background-color: rgb(208, 222, 243); */
+}
+.listaservicios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.servicio1, .servicio2, .servicio3{
+    width: 250px;
+    height: 205px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    /* border: 1px solid rgb(0,0,0); */
+}
+.servicio1:hover, .servicio2:hover, .servicio3:hover{
+    /* box-shadow: 2px 2px 2px 2px#222222; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.servicio1{
+    margin-right: 25px;
+}
+.servicio3{
+    margin-left: 25px;
+}
+.imagenservicio1, .imagenservicio2, .imagenservicio3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.textoservicio1, .textoservicio2, .textoservicio3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: tipografia2;
+    font-size: 1rem;
+    text-align: center;
+}
+.conocimientos{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+}
+.listaconocimientos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.elementoconocimiento{
+    width: 100px;
+    height: 150px;
+    /* background-color: #f6f6f6; */
+    /* border: 1px solid rgb(0,0,0); */
+}
+.modificarmargen1{
+    margin-right: 25px;
+}
+.logotipoconocimiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 95px;
+    /* border: 1px solid rgb(0,0,0); */
+}
+.textoconocimiento{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    /* border: 1px solid rgb(0,0,0); */
+}
+.logotipohtml, .logotipocss, .logotipojavascript, .logotipophp, .logotipobootstrap{
+    width: 100px;
+    height: 95px;
+}
+.logotipohtmlpath, .logotipocsspath, .logotipojavascriptpath, .logotipophppath, .logotipobootstrappath{
+    width: auto;
+    height: auto;
+    transform: scale(4);
+}
+.logotipohtml:hover{
+    fill: #fc490b;
+    transition-duration: 0.25s;
+}
+.logotipocss:hover{
+    fill: #2196f3;
+    transition-duration: 0.25s;
+}
+.logotipojavascript:hover{
+    fill: #ffdf00;
+    transition-duration: 0.25s;
+}
+.logotipophp:hover{
+    fill: #000000;
+    stroke: #ffffff;
+    stroke-width: 0.5px;
+    transition-duration: 0.25s;
+}
+.logotipobootstrap:hover{
+    fill: #5e3b7f;
+    transition-duration: 0.25s;
+}
+.logotiposql{
+    width: 75px;
+    height: 75px;
+}
+.contacto{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+}
+.listacontactos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.contacto1, .contacto2{
+    width: 225px;
+    height: auto;
+    /* border: 1px solid rgb(0,0,0); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.contacto1:hover, .contacto2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imagencorreo, .imagentelefono{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    /* background-color: #222222; */
+    /* border: 1px solid rgb(0,0,0); */
+}
+.imagen1, .imagen2{
+    width: 54px;
+}
+.logocorreo, .logotelefono{
+    width: 50px;
+}
+.textocorreo, .textotelefono{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: tipografia2;
+    font-size: 1rem;
+    /* background-color: #222222;
+    color: #e2e5ef; */
+}
+.contacto1{
+    margin-right: 50px;
+}
+
+@media screen and (max-width:1100px){
+    .servicio1, .servicio2{
+        /* margin-right: 25px; */
+        margin-bottom: 25px;
+    }
+    /* .servicio3{
+        margin-left: 0px;
+    } */
+}
+@media screen and (max-width:700px){
+    .listaservicios{
+        display: block;
+    }
+    .servicio1, .servicio2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+    }
+    .servicio3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:600px){
+    .barradenavegacion{
+        overflow: visible;
+    }
+    .bdn1{
+        display: none;
+    }
+    .bdn2{
+        display: none;
+    }
+    .btninicioresponsive{
+        visibility: visible;
+    }
+    .btnbdnresponsive{
+        display: flex;
+    }
+    .bdn{
+        height: 61px;
+    }
+    .indice1, .indice2, .indice3{
+        height: 184px;
+    }
+    .listaconocimientos{
+        display: block;
+    }
+    .elementoconocimiento{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+        /* background-color: rgb(169, 196, 247); */
+    }
+    .modificarmargen2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+    .listacontactos{
+        display: block;
+    }
+    .contacto1, .contacto2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+        /* background-color: rgb(169, 196, 247); */
+    }
+    .contacto2{
+        margin-bottom: 0px;
+    }
+}
